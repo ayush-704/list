@@ -1,0 +1,11 @@
+li=[]
+n=int(input('enter number of elements:'))
+for i in range(n):
+    lst=int(input())
+    li.append(lst)
+print(li) 
+for i in range(n):
+    if li[i]>0:
+        print(li[i],end=" ")
+    else:
+        continue
